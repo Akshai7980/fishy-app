@@ -1,0 +1,8 @@
+{
+  "name": "fishy",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

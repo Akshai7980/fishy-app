@@ -1,0 +1,37 @@
+.bg{
+    --background: #edf1f3;
+}
+.sign-in-button{
+    color: #e1754c;
+    font-weight: 900;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 35px !important;
+    font-weight: 900;
+}
+.input-field{
+    border: 2px solid #60bdf5;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #e1754c;
+}
+.input-label{
+    background: #60bdf57a;
+    border-radius: 0px 16px;
+    font-weight: 900;
+    padding: 7px;
+    position: relative;
+    bottom: 5px;
+}
+.bottom-text-container{
+    text-align: left;
+    margin-left: 23px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,45 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content class="bg">
+  <div>
+
+    <div style="text-align: center; margin-top: 15vh">
+      <img src="../../assets/image/logo.png" alt="">
+    </div>
+
+    <div style="padding: 0px 40px; margin-top: -57%;">
+
+      <span class="input-label">Your Email</span>
+      <ion-input class="input-field" type="email"></ion-input>
+
+      <span class="input-label">Your Password</span>
+      <ion-input class="input-field" type="password"></ion-input>
+
+    </div>
+
+    <div style="text-align: center;">
+      <ion-button shape="round" style="text-transform: none;" (click)="login()">Sign In</ion-button>
+    </div>
+
+    <div class="social-login-container">
+
+      <div class="bottom-container-left">
+        <ion-button shape="round" size="small" class="social-login-button-facebook">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </ion-button>
+      </div>
+
+    <div class="bottom-container-right">
+        <ion-button shape="round" size="small" class="social-login-button-google">
+          <ion-icon name="logo-google" style="font-size: 2rem;"></ion-icon>
+        </ion-button>
+      </div>
+
+    </div>
+
+  </div>
+</ion-content>

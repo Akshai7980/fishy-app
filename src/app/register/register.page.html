@@ -1,0 +1,43 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content class="bg">
+
+  <div>
+    <div style="margin-top: 5vh; padding: 0px 0px 10px 30px;">
+      <ion-item lines="none" class="bg">
+        <h1>Sign Up</h1>
+        <span [routerLink]="['/login']" class="sign-in-button">Sign In</span>
+      </ion-item>
+    </div>
+    <div style="padding: 10px 40px 0px 40px;">
+
+      <span class="input-label">Your Name</span>
+      <ion-input class="input-field" type="text"></ion-input>
+
+      <span class="input-label">Phone Number</span>
+      <ion-input class="input-field" type="number"></ion-input>
+
+      <span class="input-label">Your Place Name</span>
+      <ion-input class="input-field" type="text"> <span style="margin-left: 10px;">Kochi ,</span> </ion-input>
+
+      <span class="input-label">Your Email</span>
+      <ion-input class="input-field" type="email"></ion-input>
+
+      <span class="input-label">Your Password</span>
+      <ion-input class="input-field" type="password"></ion-input>
+
+      <div style="text-align: center;">
+        <ion-checkbox mode="ios" style="float: left;
+        --size: 16px;
+        margin-top: 4px;"></ion-checkbox>
+       <div class="bottom-text-container">Click to agree to our Terms & Conditions and that you have read our Privacy Policy </div>
+        <ion-button style="text-transform: none;" shape="round">Confirm</ion-button>
+      </div>
+    </div>
+  </div>  
+
+</ion-content>

@@ -1,0 +1,27 @@
+.bg{
+    --background: #fff url('../../assets/image/bg.png') no-repeat center center / cover;
+
+}
+.text-container{
+    position: absolute;
+    top: 30%;
+    margin-left: 60px;
+    width: 73%;
+    color: #e1754c;
+    font-weight: 900;
+    line-height: 25px;
+}
+.fish2-img{
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin-right: 60px;
+    position: relative;
+    bottom: 80px;
+}
+.fish1-img{
+    height: 90px;
+      width: 95px;
+      float: right;
+      margin-top: 4vh;
+}
